@@ -1,11 +1,11 @@
 const firebaseConfig = {
-  apiKey: "AIzaSyAaqbr_XDMvEm-D-9kP-gKcXfxGdrV-bd4",
-  authDomain: "bus118-login.firebaseapp.com",
-  databaseURL: "https://bus118-login-default-rtdb.firebaseio.com",
-  projectId: "bus118-login",
-  storageBucket: "bus118-login.appspot.com",
-  messagingSenderId: "311448466758",
-  appId: "1:311448466758:web:1858427903e75695ba6147"
+  apiKey: "AIzaSyDqJJaCM6HFAQxxPuvwayYG4E7wMN5uShI",
+  authDomain: "final-118w.firebaseapp.com",
+  databaseURL: "https://final-118w-default-rtdb.firebaseio.com",
+  projectId: "final-118w",
+  storageBucket: "final-118w.appspot.com",
+  messagingSenderId: "33132612224",
+  appId: "1:33132612224:web:3b162a4e0a2be51aa47465"
 };
 
 const app = firebase.initializeApp(firebaseConfig);
@@ -16,7 +16,7 @@ detailsRef.on("child_added", function (snapshot, prevChildKey) {
   var newPost = snapshot.val();
 });
 
-function submit() {
+function send(){
   var email = document.getElementById("email").value;
   var password = document.getElementById("password").value;
 
