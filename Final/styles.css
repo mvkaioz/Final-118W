@@ -1,0 +1,149 @@
+/* This code makes it so the navigation bar is lined up in the corner of the webpage */
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+  }
+
+/* Makes the font of the tabs a little smaller */
+html {
+    font-size: 62.5%;
+}
+
+
+/* Changes the background color of the website. Also changes the font of the letters in the top of the navbar*/
+body {
+    font-family: "Poppins", sans-serif;
+    background-color: #2b5aa6;
+  }
+
+/*
+.header {
+    height: 90vh;
+    position: relative;
+  }
+
+.logo {
+    display: inline-block;
+  } */
+
+/* Makes the navbar, shifts the body text to the left */
+.navbar {
+    height: 111px;
+    width: 100%;
+    background-color: #f2c25a;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 40px;
+    z-index: 20;
+    position: fixed;
+  }
+
+.navbar-box {
+    display: flex;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+  }
+
+
+/* Changes the font size to be a little bigger */
+.navbar-list {
+    list-style: none;
+    font-size: 2rem;
+  }
+
+/* Centers the tabs to be in line with each other instead of on top */
+.navbar-item {
+    display: inline-block;
+  }
+
+/* Makes the tab font color white and spaces them out, Order tab not included.
+Transition is how fast it will show background color when hovering */
+.navbar-link:visited,
+.navbar-link:link {
+    text-decoration: none;
+    color: white;
+    padding: 3rem;
+    transition: all 0.2s ease;
+  }
+
+/* When hovering over tabs, will show the background color */
+.navbar-link:hover {
+    background-color: #2b5aa6;
+    color: white;
+  }
+
+/* Styles the order button. Box and text shadow gives it a glow.*/
+.navbar-link-order:visited,
+.navbar-link-order:link {
+    text-decoration: none;
+    color: white;
+    padding: 2rem 3rem;
+    border: 1px solid #f2c25a;
+    border-radius: 200px;
+    box-shadow: 0 0 1rem rgba(236, 118, 40, 0.5);
+    text-shadow: 0 0.3rem 1rem rgba(255, 255, 255, 0.5);
+  }
+
+/* Changes color when hovering over the order button */
+.navbar-link-order:hover {
+    background-color: #2b5aa6;
+    color: white;
+  }
+
+/* Moves text into the middle of the screen. */
+.header-box {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* Makes the top text bigger */
+.heading-primary {
+    font-size: 6.5rem;
+    font-weight: 600;
+    letter-spacing: 3px;
+}
+
+/* Changes the color of the middle text "Burgers" and size */
+#restaurant {
+    color: #f2c25a;
+    font-weight: 800;
+    font-size: 8rem;
+}
+
+/* Changes the size and spacing of the last text */
+.lead {
+    font-size: 1.9rem;
+    font-weight: 600;
+    letter-spacing: 4px;
+}
+
+/* Styles the order now button.
+Displays text in the middle of the box
+Transition is the time it takes to show background color. */
+.order-now:visited,
+.order-now:link {
+    text-decoration: none;
+    display: inline-block;
+    color: white;
+    font-size: 2rem;
+    padding: 2rem;
+    margin-top: 4rem;
+    border: 1px solid white;
+    border-radius: 100px;
+    transition: all 0.3s ease;
+}
+
+/* Hovering over order now will give it a shadow based on its rgb value */
+.order-now:hover {
+    background-color: #2b5aa6;
+    border: 1px solid white;
+    box-shadow: 0 0 2rem rgba(240, 107, 55, 0.8);
+}

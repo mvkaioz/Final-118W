@@ -1,0 +1,93 @@
+body  
+{  
+    margin: 0;  
+    padding: 200px;
+    background-image:url(burger.jpg);  
+    font-family: 'Verdana',sans-serif;
+    display: block;
+}
+#login{ 
+    text-align: center;
+    font-family: 'Verdana',sans-serif;
+    width: 382px; 
+    font-size: small; 
+    overflow: hidden;  
+    margin: auto;  
+    margin: 20 0 0 20px;  
+    padding: 30px;
+    background: #2b5aa6;
+    border-radius: 15px; 
+    margin: auto;
+    color: rgb(255, 255, 255);
+    text-shadow:#000000;
+
+}
+label{
+    text-align: center;
+    font-family: 'Poppins',sans-serif;
+    display: inline-block;
+    color: #bdb76b;  
+    font-size: 17px;
+    padding: 20px;
+  }
+
+  #email{
+      padding: 10px;
+      color:rgb(0, 0, 0); 
+      width: 240px;
+      font-family: 'Poppins',sans-serif;
+
+  }
+
+  #pass{
+    padding: 10px;
+    color: #000000ba;
+    width: 240px;
+    font-family: 'Poppins',sans-serif;
+
+}
+#user{
+    padding: 10px;
+    color: #bdb76b;
+    width: 240px;
+    font-family: 'Poppins',sans-serif;
+
+}
+
+#submit{
+    padding-right: 0;
+    padding-left:0;
+    color: #2b285e;
+    height: 40px;
+    width: 300px;
+    background-color: #f2c25a;
+    float: center;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 900;
+    padding-bottom: 0;
+  }
+
+#signup{
+    padding-right: 0;
+    padding-left:0;
+    color: #2b285e;
+    height: 40px;
+    width: 300px;
+    background-color: #f2c25a ;
+    float: center;
+    font-family: 'Poppins',sans-serif;
+    font-weight: 900;
+    padding-bottom: 0%;
+  }
+
+button{
+    padding-right: 0;
+    padding-left:0;
+    color: #2b285e;
+    height: 40px;
+    width: 300px;
+    background-color: #f2c25a;
+    float: center;
+    font-family: 'Poppins',sans-serif;
+    padding-bottom: 0%;
+  }

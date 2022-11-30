@@ -1,0 +1,206 @@
+/* Navagation bar & overall site CSS */
+/* This code makes it so the navigation bar is lined up in the corner of the webpage */
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+/* Makes the font of the tabs a little smaller */
+html {
+  font-size: 62.5%;
+}
+/* Changes the background color of the website. Also changes the font of the letters in the top of the navbar */
+body {
+  font-family: "Poppins", sans-serif;
+  background-color: #2b5aa6;
+}
+
+.header {
+  height: 90vh;
+  position: relative;
+}
+
+.logo {
+  display: inline-block;
+} 
+/* Makes the navbar, shifts the body text to the left */
+.navbar {
+  height: 111px;
+  width: 100%;
+  background-color: #f2c25a;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 40px;
+  z-index: 10;
+  position: fixed;
+}
+
+.navbar-box {
+  display: flex;
+  align-items: center;
+  font-size: 2rem;
+  color: white;
+}
+
+.heading {
+  font-size: 3.5rem;
+  color: #f2c25a;
+}
+/* Changes the font size to be a little bigger */
+.navbar-list {
+  list-style: none;
+  font-size: 2rem;
+}
+/* Centers the tabs to be in line with each other instead of on top */
+.navbar-item {
+  display: inline-block;
+}
+/* Makes the tab font color white and spaces them out, Order tab not included
+Transition is how fast it will show background color when hovering */
+.navbar-link:visited,
+.navbar-link:link {
+  text-decoration: none;
+  color: white;
+  padding: 3rem;
+  transition: all 0.2s ease;
+}
+/* When hovering over tabs, will show the background color */
+.navbar-link:hover {
+  background-color: #2b5aa6;
+  color: white;
+}
+/* Styles the order button. Box and text shadow gives it a glow */
+.navbar-link-order:visited,
+.navbar-link-order:link {
+  text-decoration: none;
+  color: white;
+  padding: 2rem 3.5rem;
+  border: 1px solid #2b5aa6;
+  border-radius: 200px;
+  box-shadow: 0 0 1rem #f2c25a(236, 118, 40, 0.5);
+  text-shadow: 0 0.3rem 1rem white(255, 255, 255, 0.5);
+}
+/* Changes the color when hovering over the order button */
+.navbar-link-order:hover {
+  background-color: #2b5aa6;
+  color: white;
+}
+
+.order-now:visited,
+.order-now:link {
+  text-decoration: none;
+  display: inline-block;
+  color: white;
+  font-size: 2rem;
+  padding: 2rem;
+  margin-top: 4rem;
+  border: 1px solid white;
+  border-radius: 100px;
+  transition: all 0.3s ease;
+  box-shadow: 0 1rem 1rem rgba(240, 107, 55, 0.1);
+  text-shadow: 0 1rem 1rem rgba (0, 0, 0, 0.6);
+}
+
+.order-now:hover {
+  background-color: #2b5aa6;
+  border: 1px solid white;
+  box-shadow: 0 0 2rem rgba(240, 107, 55, 0.8);
+}
+
+/* Begin contact page CSS */
+/* blue stripe */
+.header-stripe {
+  height: 20vh;
+  position: relative;
+}
+
+/* white bar */
+.right {
+  background-color: white;
+  width: 100%;
+  border-top-left-radius: 10px;
+  border-bottom-left-radius: 10px;
+  position: relative;
+}
+
+/* image of burger formatting */
+.left-img {
+  height: 280px;
+  width: 280px;
+  margin-bottom: -10px;
+  float: left;
+}
+/* image of fries formatting */
+.right-img {
+  height: 280px;
+  width: 280px;
+  float: right;
+}
+
+/* business hours text */
+.business-hours {
+  padding: 2rem;
+  width: 100%;
+  text-align: center;
+}
+
+.hours-heading {
+  font-size: 6rem;
+  color: #2b5aa6;
+}
+
+/* hours text */
+.hours {
+  width: 100%;
+  text-align: center;
+  padding: 2rem 0;
+  font-size: 3rem;
+}
+
+/* maps box on lower half of page */
+.maps {
+  padding: 10rem 10rem;
+  width: 100%;
+  background-color:#2b5aa6;
+}
+
+/* blue background */
+.directions {
+  height: auto;
+  width: 100%;
+  display: flex;
+  border-radius: 10px;
+  box-shadow: 0 0 5rem rgba(0, 0, 0, 5);
+  background-color: #2b5aa6;
+  border-top-left-radius: 50px;
+  border-bottom-left-radius: 50px;
+  border-top-right-radius: 50px;
+  border-bottom-right-radius: 50px;
+}
+
+.left {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.maps-title {
+  font-size: 6rem;
+  color: wheat;
+  text-align: center;
+  text-align-last: center;
+  line-height: 1.6;
+  text-indent: 50px;
+}
+
+.maps-subtitle {
+  font-size: 3rem;
+  color: wheat;
+  text-align: center;
+  text-align-last: center;
+  text-indent: 50px;
+  justify-content: space-evenly;
+}
+
