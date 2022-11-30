@@ -46,6 +46,15 @@ label{
     font-family: 'Poppins',sans-serif;
 
 }
+
+input[type=password]{
+  padding: 10px;
+  color: #000000ba;
+  width: 240px;
+  font-family: 'Poppins',sans-serif;
+
+}
+
 #user{
     padding: 10px;
     color: #bdb76b;
